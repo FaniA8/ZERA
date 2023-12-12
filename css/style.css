@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "DietDidot";
+    src: url("https://db.onlinewebfonts.com/t/05c7a4fd25c15dc2dd37493510d98a9c.eot");
+    src: url("https://db.onlinewebfonts.com/t/05c7a4fd25c15dc2dd37493510d98a9c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/05c7a4fd25c15dc2dd37493510d98a9c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/05c7a4fd25c15dc2dd37493510d98a9c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/05c7a4fd25c15dc2dd37493510d98a9c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/05c7a4fd25c15dc2dd37493510d98a9c.svg#DietDidot")format("svg");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NavBar */
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "DietDidot";
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(146, 0, 80);
+    padding-left: 15px;
+    margin-right: -35px;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    border-radius: 60px;
+    outline: none;
+    border: none;
+    background: rgb(146, 0, 80);
+    color: white;
+    font-weight: 700;
+}
+
+/* main */
+.main{
+    background: url(../pic/main.jpg)no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%; 
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "DietDidot";
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(146, 0, 80);
+    color: white;
+    border-radius: 60px;
+    font-weight: 600;
+}
+
+.btn1:hover{
+    background-color: rgb(255, 240, 252);
+    color: rgb(146, 0, 80);
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid rgb(146, 0, 80);
+    box-shadow: 0px 0px 17px -4px rgba(0,0,0,0.75);
+}
+
+/* new */
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(78, 78, 78, 0.671);
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+/* note */
+.note{
+    background: url(../pic/note.jpg)no-repeat;
+    height: 130vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%; 
+}
+
+.note h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "DietDidot";
+}
+
+/* footer */
+.footer{
+    background-color: rgb(48, 0, 45);
+    color: white;
+}
+
+.btn2{
+    width: 100px;
+    height: 45px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.footer input{
+    width: 55%;
+    height: 45px;
+    border: 2px solid white;
+    outline: none;
+    color: white;
+    background: rgb(48, 0, 45);
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer p{
+    margin: 0;
+}
+
+/* icons */
+.fa{
+    font-size: 2rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
